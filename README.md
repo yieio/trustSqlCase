@@ -85,7 +85,7 @@ public static String sendHttpPostJson(String httpUrl, String params) {
 	}
 ```
 
-**重要说明**
+### 重要说明
 1.用户管理里面的接口，入参里面有个 seq_no
 seq_no	请求流水号	C(32)	R	必须唯一，多次接口请求流水号不能相同
 **他的位数必须是32位**
